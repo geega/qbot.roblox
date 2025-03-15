@@ -2,7 +2,7 @@ import { ActivityType } from 'discord.js';
 import { BotConfig } from './structures/types'; 
 
 export const config: BotConfig = {
-    groupId: 0,
+    groupId: 35736082,
     slashCommands: true,
     legacyCommands: {
         enabled: true,
@@ -23,7 +23,7 @@ export const config: BotConfig = {
     },
     api: false,
     maximumRank: 255,
-    verificationChecks: false,
+    verificationChecks: true,
     bloxlinkGuildId: '',
     firedRank: 1,
     suspendedRank: 1,
