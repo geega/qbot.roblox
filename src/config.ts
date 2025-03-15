@@ -9,7 +9,7 @@ export const config: BotConfig = {
         prefixes: ['q!'],
     },
     permissions: {
-        all: [''],
+        all: ['1350510185638133800'],
         ranking: [''],
         users: [''],
         shout: [''],
