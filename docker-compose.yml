@@ -5,5 +5,7 @@ services:
     image: node:20
     volumes:
       - .:/app
+    ports:
+      - 3001:3001
     working_dir: /app
-    tty: true 
+    tty: true
